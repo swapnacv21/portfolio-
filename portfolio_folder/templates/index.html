@@ -6,25 +6,147 @@
     <title>Document</title>
     <link rel="stylesheet" href="{{ url_for('static',filename='css/style.css') }}">
 </head>
+
 <body>
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="container">
+        
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-   <div class="container">
-        <h1>My Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-   </div>
+    <header class="hero bg-primary text-white text-center py-5">
+    <div class="container">
+      <h1 class="display-4">Welcome to My Portfolio</h1>
+      <p class="lead">I'm a web developer passionate about creating beautiful and functional websites.</p>
+    </div>
+  </header>
 
-   <div>
-        <h2>About me</h2>
-        <p>hello I'm a programmer</p>
-   </div>
-    
-   
+  
+  <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">My Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav> -->
+
+  <!-- Hero Section -->
+  <!-- <header class="hero bg-primary text-white text-center py-5">
+    <div class="container">
+      <h1 class="display-4">Welcome to My Portfolio</h1>
+      <p class="lead">I'm a web developer passionate about creating beautiful and functional websites.</p>
+    </div>
+  </header> -->
+
+  <!-- About Me Section -->
+  <!-- <section id="about" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>About Me</h2>
+          <p>Hi! I'm a web developer with experience in front-end and back-end technologies. I love creating user-friendly and responsive websites that offer great user experiences.</p>
+        </div>
+        <div class="col-md-6">
+          <img src="https://via.placeholder.com/400" class="img-fluid rounded-circle" alt="Your Picture">
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- Projects Section -->
+  <!-- <section id="projects" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center">My Projects</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://via.placeholder.com/300" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+              <h5 class="card-title">Project 1</h5>
+              <p class="card-text">Description of project 1. A short overview of the project.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://via.placeholder.com/300" class="card-img-top" alt="Project 2">
+            <div class="card-body">
+              <h5 class="card-title">Project 2</h5>
+              <p class="card-text">Description of project 2. A short overview of the project.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://via.placeholder.com/300" class="card-img-top" alt="Project 3">
+            <div class="card-body">
+              <h5 class="card-title">Project 3</h5>
+              <p class="card-text">Description of project 3. A short overview of the project.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- Contact Section -->
+  <!-- <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="text-center">Contact Me</h2>
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">Your Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Your Name">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Your Email</label>
+          <input type="email" class="form-control" id="email" placeholder="Your Email">
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" rows="3" placeholder="Your Message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </div>
+  </section> -->
+
+  <!-- Footer -->
+  <!-- <footer class="bg-dark text-white text-center py-4">
+    <p>&copy; 2025 My Portfolio | Designed by Me</p>
+  </footer> -->
+
+  <!-- Bootstrap JS -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script> -->
 </body>
 </html>

@@ -1,24 +1,17 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 body{
-    background-color:whitesmoke;
-    line-height: 1.6;
+  background-color: whitesmoke;
 }
-
-h1{
-    text-align: center;
+nav{
+  background-color: darkgray;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 15px;
 }
-
-nav ul{
-    list-style-type: none;
-    text-align: center;
-    background-color:cadetblue ;
-    padding: 10px;
+ul{
+  list-style-type: none;
 }
-nav ul li{
-    display: inline;
-    margin-right: 20px;
+.nav-link{
+  text-decoration: none;
+}
+.nav-item{
+  display: inline;
 }
