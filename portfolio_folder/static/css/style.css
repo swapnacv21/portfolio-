@@ -109,3 +109,10 @@ footer {
     background-color: #343a40;
     color: #fff;
 }
+
+.resumediv{
+    display: flex;
+    justify-content: center
+
+}
+
