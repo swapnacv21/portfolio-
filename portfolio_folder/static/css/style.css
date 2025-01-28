@@ -19,56 +19,75 @@ header p {
     color: #555;
 }
 
-header .nav {
+.nav {
     margin-top: 20px;
 }
 
-header .nav-link {
+.nav-link {
     font-size: 18px;
-    color: #555;
+    color: rgb(140, 140, 140);
     padding: 10px 20px;
 }
 
-header .nav-link:hover {
-    color: #007bff;
+.nav-link:hover {
+    color:black;
 }
 
-/* Service Section Styles */
-.service-box {
+.resumebox {
     background: #fff;
     padding: 20px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
 }
+.resumediv{
+    display: flex;
+    justify-content: center
 
-.service-box img {
+}
+.seemore{
+    background-color: rgb(211, 185, 231);
+
+}
+.seemore:hover{
+    background-color:rgb(180, 148, 205) ;
+    color: whitesmoke;
+}
+.form-control:hover{
+    background-color: rgb(239, 225, 249);
+    color: black;
+}
+.foot{
+    background-color: rgb(85, 85, 86);
+}
+
+/* .service-box img {
     max-width: 100px;
     margin-bottom: 20px;
-}
+} */
 
-.service-box h4 {
+/* .service-box h4 {
     font-size: 20px;
     font-weight: 500;
-}
+} */
 
 /* Portfolio Section Styles */
-.portfolio-item {
+/* .portfolio-item {
     position: relative;
     overflow: hidden;
     margin-bottom: 20px;
-}
+} */
 
-.portfolio-item img {
+/* .portfolio-item img {
     width: 100%;
     transition: transform 0.3s ease;
-}
+} */
 
-.portfolio-item:hover img {
+/* .portfolio-item:hover img {
     transform: scale(1.1);
-}
+} */
 
-.portfolio-item .overlay {
+/* .portfolio-item .overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -78,41 +97,37 @@ header .nav-link:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
-.portfolio-item .overlay .btn {
+/* .portfolio-item .overlay .btn {
     background-color: #007bff;
     color: #fff;
     padding: 10px 20px;
     text-transform: uppercase;
     font-weight: bold;
     border-radius: 5px;
-}
+} */
 
 /* Contact Form Styles */
-form input,
+/* form input,
 form textarea {
     margin-bottom: 15px;
-}
+} */
 
-form button {
+/* form button {
     background-color: #007bff;
     color: #fff;
     padding: 10px;
     font-weight: bold;
     border-radius: 5px;
     width: 100%;
-}
+} */
 
 /* Footer Styles */
-footer {
+/* footer {
     background-color: #343a40;
     color: #fff;
-}
+} */
 
-.resumediv{
-    display: flex;
-    justify-content: center
 
-}
 
